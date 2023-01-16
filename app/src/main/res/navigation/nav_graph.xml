@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.spoty.fragments.LoginFragment"
+        tools:layout="@layout/activity_login"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_RegisterFragment"
+            app:destination="@id/RegisterFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_forgetPasswordFragment"
+            app:destination="@id/forgetPasswordFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_songsFragment"
+            app:destination="@id/songsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/RegisterFragment"
+        android:name="com.example.spoty.fragments.RegisterFragment"
+        tools:layout="@layout/fragment_register"
+        android:label="ProfileRegisterFragment" >
+        <action
+            android:id="@+id/action_RegisterFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgetPasswordFragment"
+        android:name="com.example.spoty.fragments.ForgetPasswordFragment"
+        tools:layout="@layout/fragment_forget_password"
+        android:label="ForgetPasswordFragment" />
+    <fragment
+        android:id="@+id/songsFragment"
+        android:name="com.example.spoty.fragments.SongsFragment"
+        tools:layout="@layout/fragment_songs"
+        android:label="ProfileOneFragment" />
+</navigation>

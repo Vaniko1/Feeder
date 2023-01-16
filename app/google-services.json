@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "25292157418",
+    "project_id": "spoty-35ff0",
+    "storage_bucket": "spoty-35ff0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25292157418:android:88dbc857e70036b39ac293",
+        "android_client_info": {
+          "package_name": "com.example.spoty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25292157418-remj9g7ktae793ktvs1395qp7hfhmqg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFP2br34IV-tUASZTlAQPvKEERitW2ujA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25292157418-remj9g7ktae793ktvs1395qp7hfhmqg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

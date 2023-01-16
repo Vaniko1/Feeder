@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_timeline"
+    app:startDestination="@id/SongsFragment">
+
+    <fragment
+        android:id="@+id/SongsFragment"
+        android:name="com.example.spoty.fragments.SongsFragment"
+        android:label="ProfileOneFragment"
+        tools:layout="@layout/fragment_songs">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="com.example.spoty.fragments.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_changePasswordFragment"
+            app:destination="@id/ChangePasswordFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ChangePasswordFragment"
+        android:name="com.example.spoty.fragments.ChangePasswordFragment"
+        android:label="ChangePasswordFragment"
+        tools:layout="@layout/fragment_change_password">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/AddFeedbackFragment"
+        android:name="com.example.spoty.fragments.AddFeedbackFragment"
+        tools:layout="@layout/fragment_add_feedback"
+        android:label="AddFeedbackFragment">
+
+    </fragment>
+
+</navigation>
