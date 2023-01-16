@@ -21,6 +21,5 @@ Here is following steps about how to use the app, you can follow the instruction
 - Is easy to use, easy to understand the app.
 - After registering user does not have to sign in again.
 - Userfriendly design.
-##
-##
+- 
 ![image](https://user-images.githubusercontent.com/115501603/212771535-e88147e3-e585-485f-8263-911b03b7c6b6.png)
