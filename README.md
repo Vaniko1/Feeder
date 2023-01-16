@@ -1,4 +1,3 @@
-# Feeder
-App for music lovers.
-This is app for the people who loves music.
-![download](https://user-images.githubusercontent.com/115501603/212756680-b3ff10e3-5afa-4490-a0d9-b66634d566b2.jpg)
+## OVERVIEW
+FEEDER
+it is an application that helps you write a feedback on every song, artist you like and let others know your feelings towards them or advice others to check that song.
