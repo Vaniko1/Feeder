@@ -1,4 +1,4 @@
-## OVERVIEW
+## ABOUT APP
 FEEDER
 This is Feeder, app for people who is in love with music. The application uses Firebase Authentication and Realtime Database services.
 ![image](https://user-images.githubusercontent.com/115501603/212770234-132f5988-0b35-4b69-ae93-8c15c584ba27.png)
@@ -10,3 +10,13 @@ After downloading the app, user should register or if he or she has an account, 
 ##
 Here is following steps about how to use the app, you can follow the instructions on the following image:
 ![image](https://user-images.githubusercontent.com/115501603/212771114-13e50720-6d34-449a-8938-e309e7f24331.png)
+##
+##
+## FEATURES
+- Changing password from Profile page or during signing in.
+- Is easy to use, easy to understand the app.
+- After registering user does not have to sign in again.
+- Userfriendly design.
+##
+##
+![image](https://user-images.githubusercontent.com/115501603/212771535-e88147e3-e585-485f-8263-911b03b7c6b6.png)
