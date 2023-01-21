@@ -26,34 +26,51 @@ Here is following steps about how to use the app, you can follow the instruction
 
 
 Enable, configure terminal, int fa/ga, ip add(ip, subn), no shutdown - აიპების მისათითებლად კომანდები
+
 ho – როუტერის სახელის დარქმების კომანდი
+
 banner motd “Text” - შესვლამდე აგდებს ამ კომანდში ჩაწერილი ტექსტს
+
 ip route (კომპის ip, subn, როუტერის ip) - კომანდი რათა ასწავლო სხვა ქსელები სხვა როუტერს
+
 write, copy running config tftp: - tftp-ს სამისამართო კომანდი
+
 ip ftp usernamo / password - პაროლის და სახელის მისანიჭებელი კომანდი
+
 int gig 0/0 - ეს სიტყვაზე , ip helper-address (DHCP ადრესი უნდა აქ) – DHCP -ის მისათითებელი კომანდი როუტერისთვის
+
 enable password (რამე) – enable-ს პაროლის დაყენების კომანდი
+
 enable secret (რამე) - ანაცველბს enable-ს პირველად პაროლს
+
 line console 0 , password (რამე), login - სულ სულ თავიდან გვაწერინებს პაროლს ამ კომანდით
+
 line vty 0 15, password (რამე), login - ყველა არხზე იწერება ეს ბრძანება 
+
 ena, conf t, router rip, version 2, no auto-summary, network(ip add), 
 
 
-enable, conf t, ip dhcp pool ?, ip dhcp pool (saxeli), network(ip) ?, network(ip-უკვე გაწერილია, subn mask-ვამატებთ), default-router(ვწერთ აქ gateway-ს), dns-server(dns ip), domain-name(დომეინის სახელისთვის - სავალდებულო არაა), exit, ip dhcp excluded-address
- (პირველი ip - მეორე ip, ამ პირვეპი აიპიდან მეორე აიპამდე არ ჩათვლის DHCP) 
+
+enable, conf t, ip dhcp pool ?, ip dhcp pool (saxeli), network(ip) ?, network(ip-უკვე გაწერილია, subn mask-ვამატებთ), default-router(ვწერთ აქ gateway-ს), dns-server(dns ip), domain-name(დომეინის სახელისთვის - სავალდებულო არაა), exit, ip dhcp excluded-address(პირველი ip - მეორე ip, ამ პირვეპი აიპიდან მეორე აიპამდე არ ჩათვლის DHCP) 
 
 
 int fa 0/5, switchport mode access, switchport access vlan 10 – vlan-ის მინიჭება
 
 fa 0/1, switchport mode trunk - თრანაქზე გადაყვანა
+
 * = ricxvia
+* 
 inf fa */*,  swi mo tr, swirtchport trunk native vlan *.  – native vlan-ის შეცვლა
+
 
 interface range fastEthernet 0/2-3
 
 router rip, version 2, no auto-summary, network (172.16.0.0 - სიტყვაზე).
+
 Passive- interface gi 0/1 - ინფორმაციის აღარ მიწოდება
+
 Router rip, default-information originate - გავრცელება ინფოსი რიპზე
+
 Username () password(), enable secret (), ip ssh version 2, ip domain-name (), crypto key generate rsa, აქ რაიმე ციფრი რომელიც გვინდა მერე, line vty 0 15, login local, transport input ssh.	
 
 
