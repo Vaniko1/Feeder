@@ -66,16 +66,13 @@ int gi 0/0 - შევდივართ რომელიმე ინტე�
 ip access-group (saxeli rac davarqvit) in or out
 exit
 
-ip access-list standard (saxeli)
-deny network (aq adresi da wildcard maska)
-permit any
-exit
-int gi 0/0 - შევდივართ რომელიმე ინტერფეისზე რომელზეც გვინდა
-ip access-group (saxeli rac davarqvit) in or out
-exit
-
 interface loopback (saxeli an 0dan)
 ip add sityvaze:172.16.31.1 255.255.255.0
 desc (aq shegvidzlia chawerot rac gvinda is)
 exit
+
+
+
+
+
 
